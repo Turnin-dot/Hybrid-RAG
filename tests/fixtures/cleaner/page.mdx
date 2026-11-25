@@ -1,0 +1,38 @@
+---
+title: Fixture page
+description: Plain metadata
+keywords: [retrieval, code]
+boost: 2
+---
+import Example from '/snippets/example.mdx';
+
+Shared introduction with [a link](/guide).
+
+## <Icon icon="download" size={20} /> Install
+
+:::python
+<CodeGroup>
+```python
+# This is not a heading
+import os
+text = "<Info> :::js </Info>"
+```
+</CodeGroup>
+:::
+
+:::js
+```typescript
+const excluded = true;
+```
+:::
+
+<Expandable title="Extra details" defaultOpen={false}>
+<Info>Important **body** and [reference](/reference).</Info>
+</Expandable>
+<Card title="Guide" href="/guide">Card explanation.</Card>
+
+| Field | Meaning |
+| --- | --- |
+| value | Keep this table |
+
+<Example />
